@@ -1,11 +1,11 @@
 import React from "react";
 import HotelsList from "./Hotels/index";
-import Filters from "./Filters/index";
+import FiltersList from "./Filters/index";
 import { filterData, hotelData } from "./data.js";
 
 const App = () => (
   <div className="App">
-    <Filters filters={filterData} />
+    <FiltersList filters={filterData} />
     <HotelsList hotels={hotelData} />
   </div>
 );
