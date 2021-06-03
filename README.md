@@ -1,3 +1,3 @@
 # hotel-search
 
-React app that uses array of filter and hotel objects and renders each list onto page.  Display only; no working filter or search function.
+React app that uses stateful components to render hotel information on page in response to checkbox filters
